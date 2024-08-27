@@ -1,0 +1,11 @@
+<div *ngIf="employee">
+  <h4 class="font-weight-bold">{{ employee.name }}'s Profile</h4>
+  <br>
+  <h5>Employee Details:</h5>
+  <ul class="pl-3 mt-3 font-weight-medium">
+    <li><b>Full Name:</b> {{ employee.name }}</li>
+    <li><b>Date of Joining:</b> {{ employee.created_at | date:'dd MMMM yyyy' }}</li>
+    <li><b>Department:</b> {{ employee.department }}</li>
+  </ul>
+  <img [src]=photo+employee.profile_photo class="profile-picture-emp-det" alt="">
+</div>

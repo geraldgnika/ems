@@ -1,0 +1,16 @@
+<div *ngIf="department">
+  <h4 class="font-weight-bold">{{ department.name }} Department</h4>
+  <br>
+  <div *ngIf="department.employees.length > 0" class="mb-4">
+    <h5 *ngIf="department.employees.length == 1">This department has {{ department.employees.length }} employee:</h5>
+    <h5 *ngIf="department.employees.length != 1">This department has {{ department.employees.length }} employees:</h5>
+  </div>
+  <div *ngIf="department.employees.length > 0">
+    <ol class="pl-3 my-0 font-weight-medium" *ngFor="let employee of department.employees">
+      <li><a class="gotodetail" (click)="goToDetail(employee.id)">{{ employee.name }}</a></li>
+    </ol>
+  </div>
+  <div *ngIf="department.employees.length == 0">
+    This department has no employees yet!
+  </div>
+</div>

@@ -1,0 +1,31 @@
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 header fixed-top">
+  <div class="header-icons-div">
+    <a routerLink="">
+      <img src="../assets/favicon.ico" class="logo-header" alt="">
+      <h5 class="my-0 mr-md-auto font-weight-normal"><b>EMS</b></h5>
+    </a>
+  </div>
+  <nav class="my-2 my-md-0 mr-md-3">
+    <a class="p-2 text-dark">
+      <button routerLink="departments" class="dep-emp-btn-header" Button>Departments</button>
+    </a>
+    <a class="p-2 text-dark">
+      <button routerLink="employees" class="dep-emp-btn-header" Button>Employees</button>
+    </a>
+  </nav>
+</div>
+
+<div class="container mgtopcontainer">
+  <router-outlet></router-outlet>
+</div>
+
+<footer class="footer mt-auto py-3">
+  <div class="container fcontainer">
+    <p class="float-right">
+      Ⓒ Copyright 2022
+    </p>
+    <p>Employee Management System (EMS) offers a vast variety of options to interact with your departments and
+      employees.</p>
+    <p class="mb-0">Developed by: <a href="https://gitlab.com/itsnika" target="_blank">Gerald Nika</a>.</p>
+  </div>
+</footer>

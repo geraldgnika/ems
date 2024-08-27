@@ -1,0 +1,26 @@
+.profile-picture {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.form-control {
+  background-color: #262626;
+  border: 1px solid #3f3f3f;
+  color: white;
+}
+
+.adddate {
+  background-color: #262626;
+  color: white;
+  border: 1px solid #3b3b3b;
+  border-radius: 7px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 1px;
+}

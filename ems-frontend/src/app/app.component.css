@@ -1,0 +1,58 @@
+.mgtopcontainer {
+  margin-top: 85px;
+  margin-bottom: 85px;
+}
+
+.w-fill {
+  width: -webkit-fill-available;
+  width: -moz-available;
+}
+
+.logo-header {
+  height: 25px;
+  margin-right: 20px;
+}
+
+.fcontainer {
+  max-width: -moz-available;
+  padding: 30px;
+}
+
+.dep-emp-btn-header {
+  border: 0;
+  background-color: transparent;
+  font-size: 15px;
+  alignment-baseline: middle;
+  outline: none;
+  box-shadow: none;
+}
+
+a, h, p, li, button, table, tr, th, td {
+  color: white !important;
+}
+
+.header {
+  background-color: #292929;
+  border-bottom: 1px solid #393939;
+}
+
+.footer {
+  background-color: #292929;
+  top: 1px solid #393939;
+  height: -webkit-fill-available;
+  width: -moz-available;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.header-icons-div {
+  display: flex;
+  margin-right: auto;
+}
+
+.header-icons-div a {
+  display: flex;
+  color: black;
+  text-decoration: none;
+}
